@@ -1,34 +1,6 @@
-// Venobox code Start 
-new VenoBox({
-    selector: '.my-image-links',
-    numeration: true,
-    infinigall: true,
-    share: true,
-    spinner: 'rotating-plane'
-});
-// Venobox code End
-
-new VenoBox({
-    selector: '.my-video-links',
-});
-
-// Mexitup part start 
-var containerEl = document.querySelector('.filterMixitUp');
-
-var mixer = mixitup(containerEl, {
-    multifilter: {
-        enable: true
-    },
-    animation: {
-        effects: 'fade translateZ(-100px)'
-    }
-});
-// Mexitup part End 
-
-// Typed Js css start 
 $(function(){
 	$(".typed").typed({
-		strings: ["Developers.", "Developers.", "Developers."],
+		strings: ["Developers.", "Designers.", "People."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
@@ -61,4 +33,3 @@ $(function(){
 		resetCallback: function() {}
 	});
 });
-// Typed Js css End 
