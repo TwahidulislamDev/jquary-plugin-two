@@ -6,4 +6,21 @@ new VenoBox({
     share: true,
     spinner: 'rotating-plane'
 });
-// Venobox code End 
+// Venobox code End
+
+new VenoBox({
+    selector: '.my-video-links',
+});
+
+// Mexitup part start 
+var containerEl = document.querySelector('.filterMixitUp');
+
+var mixer = mixitup(containerEl, {
+    multifilter: {
+        enable: true
+    },
+    animation: {
+        effects: 'fade translateZ(-100px)'
+    }
+});
+// Mexitup part End 
